@@ -80,7 +80,7 @@ function Calculator() {
     <div className="calculator">
       <div className="calculator-input">
         <div className="result">{nextValue} </div>
-      </div>
+      </div><br/>
       <div className="calculator-keypad">
         <div className="keys-function">
           <CalculatorKey keyValue={"c"} onClick={handleOperation} />
